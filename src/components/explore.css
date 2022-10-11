@@ -1,0 +1,248 @@
+article {
+  background: linear-gradient(
+    to right,
+    hsl(98 100% 62%),
+    hsl(204 100% 59%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+.heading{
+text-align: center;
+margin-bottom: 5rem;
+margin-top: 5rem;
+color: white;
+}
+.cardvolume{
+  text-align: center;
+  font-size: 1rem;
+}
+.containernftt{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  
+}
+.containernft{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.containernftss{
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-bottom: -5rem;
+}
+
+.containernfts{
+    margin-top: 2rem;
+    display: flex;
+    margin-bottom: 5rem;
+    justify-content: center;
+}
+#smarg{
+    margin-top: 5rem;
+}
+
+.rowtpcarddp{
+    display: grid;
+    grid-template-columns: 14rem 14rem 14rem 14rem;
+    /* width: 50vw; */
+  grid-template-rows: 35% 35% 35% 35%;
+    gap: 4rem;
+   
+}
+.rowtpcard{
+    display: grid;
+    grid-template-columns: 15.1rem 15.1rem 15.1rem 15.1rem;
+
+    /* width: 50vw; */
+    gap: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.avatarimg{
+  height: 4rem;
+  width: 4rem;
+  border-radius: 0.9rem;
+}
+.tcard{
+  border: 0.2rem solid black;
+  border-radius: 2rem;
+  display: flex;
+  margin-bottom: 5rem;
+  background-color: black;
+}
+.topcollectionscard{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 2rem;
+  background-color: black;
+}
+.sprice{
+  margin-left: 1rem;
+}
+.bimg{
+height: 50%;
+width: 100%;
+border-radius: 1rem;
+}
+
+.aimg{
+height: 4rem;
+width: 4rem;
+border-radius: 5rem;
+position: relative;
+left: 5.2rem;
+bottom: 2rem;
+}
+
+.sellername{
+
+margin-left: 1rem;
+margin-top: 0.5rem;
+ 
+}
+.floorandvolumediv{
+  text-align: center;
+}
+.avatardiv{
+  padding: 0.8rem;
+}
+.nftnameinsidecollection{
+  text-align: center;
+  margin-top: -2rem;
+}
+
+.topsellerstext{
+  color: white;
+  margin-top: 18rem;
+  
+ 
+  text-align: center;
+}
+.topcollectionstext{
+  color: white;
+  margin-top: 4rem;
+  
+ 
+  text-align: center;
+}
+.card-sl {
+    border-radius: 20px;
+    /* width: 20rem; */
+    /* box-shadow: 0 4px 8px 0 rgba(238, 227, 227, 0.2), 0 6px 20px 0 rgba(249, 242, 242, 0.19);
+    box-shadow: rgba(222, 215, 215, 0.22) 0px 19px 43px; */
+    width: 14.5rem;
+    height: 18rem;
+}
+body{
+  background-color: #000d27;
+}
+.card-image img {
+  max-width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;
+    /* box-shadow: rgba(206, 197, 197, 0.22) 40px 19px 43px; */
+}
+
+.heartaction {
+    position: relative;
+    float: right;
+    margin-top: -1.5rem;
+    margin-right: 0.5rem;
+    z-index: 2;
+    /* color: #E26D5C; */
+    background-color: white;
+    border-radius: 100%;
+    padding: 15px;
+    width: 0.5rem;
+    height: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heartaction:hover {
+    /* color: #fff; */
+    /* background: #fff; */
+    -webkit-animation: pulse 1.5s infinite;
+}
+
+.card-heading {
+    font-size: 18px;
+    font-weight: bold;
+    background:  black;
+    padding: 10px 15px;
+    
+}
+.headingtextt{
+  text-align: center;
+}
+.card-text {
+    padding: 5px 10px;
+        background: black;
+    font-size: 20px;
+    color: #636262;
+}
+
+.heartimg{
+    width: 1.5rem;
+}
+
+.card-button {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+
+    background-color: #1F487E;
+    color: #fff;
+    border-radius: 0 0 20px 20px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.card-button:hover {
+    text-decoration: none;
+    background-color: #1D3461;
+    color: #fff;
+
+}
+#tt
+{border-radius:0 0 20px 20px;
+}
+
+
+@-webkit-keyframes pulse {
+    0% {
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    70% {
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
+    }
+
+    100% {
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+        box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+    }
+}

@@ -1,0 +1,39 @@
+.dcard {
+    background-color: black;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: var(--shadow-1);
+    transition: var(--transition-2);
+  }
+  
+  .dcard-banner {
+    overflow: hidden;
+    border-radius: var(--radius-6);
+    background-color: var(--raisin-black);
+  }
+  .dimg-cover{
+    width: 3rem;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  ion-icon {
+    pointer-events: none;
+    color: var(--white);
+  }
+  dauthor-link:hover{
+    text-decoration: none;
+  }
+  
+  .dimg-cover {
+    width: 19vw;
+    height: 40vh;
+    object-fit: cover;
+  }
+  
+  .card-title,
+  .card-title > a { transition: var(--transition-2); }
+  
+  

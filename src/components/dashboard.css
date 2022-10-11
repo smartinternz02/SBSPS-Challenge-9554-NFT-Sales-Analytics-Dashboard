@@ -1,0 +1,220 @@
+.dashboardpage {
+    color: aliceblue;
+    margin-top: 0.5rem;
+}
+
+.cardrow {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 3rem;
+}
+
+.scard {
+    height: 15vh;
+    background-color: #0b4db6;
+    border-radius: 1rem;
+    
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+}
+
+
+.first {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+
+.propic {
+    padding-right: 1rem;
+    border-right: 1px solid white;
+}
+
+.profdp {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 15vh;
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+}
+
+.profdet {
+    height: 30vh;
+
+}
+
+.profile {
+    padding: 0rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    width: 59vw;
+    background-color: #152846;
+    height: 40vh;
+    border-radius: 3rem;
+}
+
+.stats {
+    width: 35vw;
+    padding: 1rem 1.5rem;
+    background-color: #152846;
+    height: 40vh;
+    border-radius: 3em;
+}
+
+.timedrop {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 0.2rem;
+}
+
+.svgarr {
+    vertical-align: middle;
+    fill: currentColor;
+    overflow: hidden;
+    rotate: 90deg;
+    margin-bottom: 0.1rem;
+}
+
+.dgraph{
+    display: flex;
+    padding: 0rem 1rem;
+    gap: 5rem;
+}
+
+.midcircle{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 15vh;
+    background-color: rgb(128,128,128,0.3);
+    
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+}
+
+.clr{
+    background-color: red;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+
+}
+.gdetails{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.3rem;
+    gap: 1rem;
+}
+.gdetails>h6{
+    align-items: center;
+    gap: 0.3rem;
+    display: flex;
+}
+
+#bclr{
+  background-color: aqua;  
+}
+#yclr{
+  background-color: yellow;  
+}
+#rclr{
+  background-color: red;  
+}
+#gclr{
+  background-color: green;  
+}
+
+
+.dtags{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.dtagsr1{display: flex;gap: 1rem;}
+.dtagsr2{display: flex;gap: 1rem; margin-left: 4.5rem;}
+
+.elliptag{
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 1.25rem;
+    padding: 0.1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: small;
+    background-color: rgb(128,128,128,0.3);
+    
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+
+}
+
+#et1{ background-color: pink;}
+#et2{ background-color: yellowgreen;}
+#et3{ background-color: blueviolet;}
+#et4{ background-color: burlywood;}
+#et5{ background-color: brown;}
+
+
+.second{
+    display: flex;
+    margin-top: 2rem;
+    gap: 2rem;
+
+}
+.nfgraph{
+    width: 60vw;
+    background-color: #152846;
+    height: 50vh;
+    border-radius: 3rem;
+    padding: 1.5rem 2rem;
+}
+.recenact{
+    width: 35vw;
+    background-color: #152846;
+    height: 50vh;
+    border-radius: 3rem;
+    padding: 1.5rem 2rem;
+}
+
+.grapharea{
+    background-color: aliceblue;
+    height: 85%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    
+}
+.actiarea{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    height: 85%;
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+    
+}
+.acticard{
+    background-color: rgb(128,128,128,0.3);
+    border-radius: 0.5rem;
+    height: 3.5rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.actiarea p{
+    color: rgb(128,128,128,0.8);
+    margin: 0;
+}
+.actiarea h5{
+    margin: 0;
+}
+.actiarea a:hover{
+    margin: 0;
+    text-decoration: none;
+}
+.nfgro{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
