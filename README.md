@@ -1,6 +1,7 @@
 <pre>
 NFT SALES WEBSITE using HTML,CSS,JS,REACT,NODEJS,API (FETCHING DATA)
 Buy Best NFT's according to Your Budget.
+</pre>
 LOGIN PAGE:-
 ![7](https://user-images.githubusercontent.com/114357685/195278744-4a2337f2-6a55-4546-8169-0e6f7688f4b0.jpeg)
 
@@ -43,4 +44,4 @@ MY NFT's SECTION OF OWNED NFT's:-
 MY NFT's SECTION OF SOLD NFT's:-
 
 ![Screenshot (360)](https://user-images.githubusercontent.com/105946829/195421250-c6e6e9c6-43d8-48b4-b496-d6105f39edef.png)
-</pre>
+
