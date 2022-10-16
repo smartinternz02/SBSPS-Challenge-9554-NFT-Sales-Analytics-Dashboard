@@ -1,161 +1,203 @@
 
+.tt
+{border-radius: 100px;
+ border: 2px solid black;
+ margin-top: 250px;
+ margin-left: 50px;
+ box-shadow: 10px 10px 10px 10px ;
 
-
-.nftdetailssingle{
-  overflow-x: hidden;
-  background-color: white;
 }
-  body{
-    background-color: rgba(210, 210, 238, 0.455);
-  }
-  /*  */
-  .namensp{
-    margin-top: 15vh;
-    margin-left: 36vw;
-   
-  }
-  .rightimg:hover{
-    cursor: pointer;
-  }
-  .backfronticons{
-   border: 2px solid black;
-   
-  }
-  
- 
-  .backimgnsp{
-    margin-left: 2rem;
-    margin-top: 3rem;
-   
-  }
-  .backimgnsp:hover{
- cursor: pointer;
-  }
-  .prev{
-border: 2px solid black;
-margin-top: 4px;
-    margin-bottom: -44px;
-   
-   
-  }
-  .nextt{
-    border: 2px solid black;
-  }
- 
-  
-  
-  .nftimage{
-    margin-top: -200px;
-  }
-  
-  .graph{
-    margin-top: 50px;
-    height: 500px;
-    width: 500px;
-    margin-left: 50px;
-    
-  }
-  .imgnsp
-  {border-radius: 30px;
-   border: 2px solid black;
-   height: 360px;
-   width: 383px;
-   margin-left: 50px;
+.tr
+{
+  width:60px;
+  height: 60px;
 }
+.t1
+{background-color: silver;
+  height: 100px;
+  width: 250px;
+  margin-left: 3rem;
+  border-radius: 60px;
+  box-shadow:  5px 10px black;
+}
+.t2
+{background-color: silver;
+    height: 100px;
+    width: 250px;
+    margin-left: 3rem;
+    margin-top: 1rem;
+      border-radius: 60px;
+      box-shadow:  5px 10px black;
+}
+.t3
+{background-color: silver;
+    height: 100px;
+    width: 250px;
+    margin-left: 3rem;
+    margin-top: 1rem;
+      border-radius: 60px;
+      box-shadow:  5px 10px black;
+}
+.img
+{display: flex;
+  gap:1rem;
+}
+.stair
+{
+  margin-top: 200px;
+}
+.img
+{align-items: center;}
 .graphimg{
-  height: 360px;
-   width: 383px;
+  height: 400px;
+  width: 650px;
+  padding: 50px;
 }
-  * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-  }
-  
-  .verifiedtick{
-    height: 1.2rem;
-    width: 1.2rem;
-    position: relative;
-    left: 3.8rem;
-    
-  }
-  .creatorid{
-    font-size: 1rem;
-    font-family: monospace;
-    color: grey;
-    padding-left: 6.2rem;
-    margin-top: -1.4rem;
-  }
-  .ownertext{
-    position: relative; 
-    top: -2.2rem;
-    left: 6.4rem;
-    color: rgb(46, 94, 100);
-  }
-  #ownerid{
-    position: relative;
-    left: 30rem;
-    top: -2.5rem;
-  
-  }
-  .ownership{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.graph
+{
+  margin-top:12rem;
+  gap:10px;
+}
+.img
+{
+  margin-top: -10rem;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+}
+
+.noselect {
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	border: none;
+	font-family: 'Comfortaa', cursive;
+	color: rgba(255,255,255,0.5);
+	font-size: 20px;
+	border-radius: 4px;
+	box-shadow: inset 0px 3px 5px rgba(255,255,255,0.5), 0px 0px 10px rgba(0,0,0,0.15);
+	background: rgb(2,0,36);
+background: linear-gradient(45deg, rgba(2,0,36,0) 5%, rgba(255,255,255,.5) 6%, rgba(255,255,255,0) 9%, rgba(255,255,255,.5) 10%, rgba(255,255,255,0) 17%, rgba(255,255,255,.5) 19%, rgba(255,255,255,0) 21%);
+	background-size: 150%;
+	background-position: right;
+	transition: 1s;
+}
+
+button:hover {
+	background-position: left;
+	color: white;
+	box-shadow: inset 0px 3px 5px rgba(255,255,255,1), 0px 0px 10px rgba(0,0,0,0.25);
+}
+
+button:focus {
+	outline: none;
+}
+.creatordetails{
+
+  display: inline-block;
   position: relative;
-  left: 38rem;
-  top: 28rem;
   font-size: 1.2rem;
+}
+.cn{
+  display: inline-block;
+  position: relative;
+  top:-25px;
+  left: 1rem;
+  color: rgb(39, 5, 82);
   font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.verifiedtick{
+  height: 1.2rem;
+  width: 1.2rem;
+  position: relative;
+  left: 3.8rem;
+
+}
+.creatorid{
+  font-size: 1rem;
+  font-family: monospace;
+  color: grey;
+  padding-left: 6.2rem;
+  margin-top: -1.4rem;
+}
+.ii
+{border:2px solid black;
+   border-radius: 80px;
+    background-color: black;
   }
-  .ownership:hover{
-    cursor: pointer;
-  }
-  .history:hover{
-    cursor: pointer;
-  }
-  #ownerpic{
-    position: relative;
-    top: 1rem;
-    left: 2rem;
-  }
-  #ownershipdetails{
-    position: relative;
-    top: 38rem;
-    left: 30rem;
-  }
-  .history{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: relative;
-    left: 46rem;
-    top: 16.7rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-  }
-  #ownercn{
-    top: -34px;
-    left: 6.322rem;
-    
-  }
-  .creatordetailsnsp{
-    
-    display: inline-block;
-    position: relative;
-    top: 30rem;
-    left: 30rem;
-    font-size: 1.2rem;
-  }
-  .cnnsp{
-    display: inline-block;
-    position: relative;
-    top:-25px;
-    left: 1rem;
-    color: rgb(39, 5, 82);
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .copyimg{
-    height: 16px;
-    width: 16px;
-  }
-  .copyimg:hover{
-  cursor: pointer;
-  }
+  .tm {
+ background: linear-gradient(to right, blue,black,red,yellow,green);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-size:30px;
+ line-height: 80px;
+ margin-left: 1rem;
+}
+.ownertext{
+  position: relative;
+  top: -2.2rem;
+  left: 6.4rem;
+  color: rgb(46, 94, 100);
+}
+#ownerid{
+  position: relative;
+  left: 30rem;
+  top: -2.5rem;
+
+}
+#ownerpic{
+  position: relative;
+  top: 1rem;
+  left: 2rem;
+}
+#ownercn{
+  top: -34px;
+  left: 2.322rem;
+
+}
+#ownerid{
+  position: relative;
+  left: 30rem;
+  top: -2.5rem;
+
+}
+
+.copyimg{
+  height: 16px;
+  width: 16px;
+}
+.copyimg:hover{
+cursor: pointer;
+}
+h4 {
+  font-size: 18px;
+  padding: 5px;
+  margin: 15px 0;
+  font-size: 45px;
+  color: #2288f9;
+  margin-left: 12rem;
+}
+article {
+  /*  leverage cascade for cross-browser gradients  */
+  background: radial-gradient(
+    hsl(100 100% 60%),
+    hsl(200 100% 60%)
+  ) fixed;
+  background: conic-gradient(
+    hsl(100 100% 60%),
+    hsl(200 100% 60%),
+    hsl(100 100% 60%)
+  ) fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+

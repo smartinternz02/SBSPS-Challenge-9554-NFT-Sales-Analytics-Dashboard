@@ -26,9 +26,12 @@
 
   
   #dp{
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
+    border: 2px solid aqua;
+    
+    box-shadow: aqua 0px 0px 10px 0.1px;
   }
   .dp{
     border-radius: 50%;
@@ -54,9 +57,6 @@
     
   }
 
-  .down{
-    
-  }
   
   
   .navul{
@@ -87,7 +87,12 @@
     text-decoration: none;
     color: #ec1f7f;
     text-shadow: 0 0 15px #e83e8c, 0 0 25px #e83e8c;
-    animation: glow 1.5s linear infinite;
+  }
+
+  .navrouteactive{
+    text-decoration: none;
+    color: #ec1f7f;
+    transition: 0.5s;
   }
 
   .actroute{
@@ -114,6 +119,5 @@
 
   .navlogo{
     width: 3.5rem;
-    margin-left: 1rem;
   }
   

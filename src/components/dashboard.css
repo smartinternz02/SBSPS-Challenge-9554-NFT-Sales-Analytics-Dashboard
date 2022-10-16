@@ -5,16 +5,44 @@
 
 .cardrow {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 22.5% 22.5%  22.5%  22.5% ;
+    /* grid-template-columns: auto auto auto auto ; */
     gap: 3rem;
 }
 
 .scard {
+    padding: 1rem;
     height: 15vh;
-    background-color: #0b4db6;
     border-radius: 1rem;
-    
+    background-color: #0b4db6;
+    background-color: rgb(96, 134, 250);
     box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.scard h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    text-shadow:rgba(0, 0, 0, 0.22)  1px 1px 13px;
+    
+}
+
+#sc1{
+    
+}
+#sc2{
+    /* background-color: aqua; */
+    
+}
+#sc3{
+    /* background-color: blueviolet; */
+    
+}
+#sc4{
+    /* background-color: violet; */
+
 }
 
 
@@ -134,9 +162,9 @@
 .dtagsr2{display: flex;gap: 1rem; margin-left: 4.5rem;}
 
 .elliptag{
-    width: 9rem;
-    height: 2.5rem;
-    border-radius: 1.25rem;
+    width: 10rem;
+    height: 2.8rem;
+    border-radius: 1.4rem;
     padding: 0.1rem;
     justify-content: center;
     align-items: center;
@@ -145,8 +173,11 @@
     background-color: rgb(128,128,128,0.3);
     
     box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+    text-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
 
 }
+
+
 
 #et1{ background-color: pink;}
 #et2{ background-color: yellowgreen;}
@@ -177,7 +208,7 @@
 }
 
 .grapharea{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     height: 85%;
     margin-top: 1rem;
     border-radius: 1rem;
@@ -218,3 +249,9 @@
     width: 100%;
     border-radius: 1rem;
 }
+
+.dchart{
+    width: 13rem;
+    /* height: 10rem; */
+}
+

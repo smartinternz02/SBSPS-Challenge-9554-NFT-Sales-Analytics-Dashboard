@@ -18,12 +18,28 @@
   a{
     text-decoration: none;
   }
+  a:hover{
+    text-decoration: none;
+
+  }
 
   ion-icon {
     pointer-events: none;
     color: var(--white);
   }
-  dauthor-link:hover{
+  
+.dcard{
+  text-decoration: none;
+}
+.dcard:hover{
+  text-decoration: none;
+
+}
+
+  .dauthor-link{
+    font-size: 0.7rem;
+  }
+  .dauthor-link:hover{
     text-decoration: none;
   }
   

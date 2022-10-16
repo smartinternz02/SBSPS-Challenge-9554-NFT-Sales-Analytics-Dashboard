@@ -47,6 +47,8 @@ input.catoli {
   padding-top: 1rem;
   border-right: 2px solid white;
   width: 30vw;
+  height: 100vh;
+  /* position: fixed; */
   transition: 3s;
   color: white;
   display: none;

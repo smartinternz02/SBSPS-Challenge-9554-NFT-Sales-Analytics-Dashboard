@@ -27,11 +27,13 @@ function mynft() {
                     <h1>SOLD</h1>
                 </article>
                 <div class="containernfts" >
-                    <div class="rowtpcardttt">
+                    <div class="rowtpcardttts">
+        <br />
+                        <h3>NO NFTs Sold Yet</h3>
+                        {/* <Tscard />
                         <Tscard />
                         <Tscard />
-                        <Tscard />
-                        <Tscard />
+                        <Tscard /> */}
                         
                     </div>
                 </div>

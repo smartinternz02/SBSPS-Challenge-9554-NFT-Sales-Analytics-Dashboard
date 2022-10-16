@@ -40,11 +40,11 @@ function register() {
                                     id="exampleRepeatPassword" placeholder="Repeat Password"/>
                             </div>
                         </div>
-                        <Link to="/user" class="btn btn-primary btn-user btn-block">
+                        <Link to="/user/home" class="btn btn-primary btn-user btn-block">
                             Register Account
                         </Link>
                         <hr/>
-                        <Link to="/user" class="btn btn-google btn-user btn-block">
+                        <Link to="/user/home" class="btn btn-google btn-user btn-block">
                             <i class="fab fa-google fa-fw"></i> Register with Google
                         </Link>
 

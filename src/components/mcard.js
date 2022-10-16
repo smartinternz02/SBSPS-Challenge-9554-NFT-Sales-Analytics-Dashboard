@@ -18,15 +18,15 @@ function card(props) {
                 </figure>
 
                 <h3 class="h3 dcard-title">
-                  <a href="#">NFT Name</a>
+                  <a href="#">{props.name}</a>
                 </h3>
 
                 <span class="dcard-author">
-                  Owned By <a href="#" class="dauthor-link">Owner</a>
+                  Owned ID: <a href="#" class="dauthor-link">{props.owner}</a>
                 </span>
 
                 <div class="dwrapper">
-                  <data class="dwrapper-item" value="1.5">$ Price</data>
+                  <data class="dwrapper-item" value="1.5">$ {props.price}</data>
 
                 </div>
 
